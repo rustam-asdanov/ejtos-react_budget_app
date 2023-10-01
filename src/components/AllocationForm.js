@@ -94,7 +94,6 @@ const AllocationForm = (props) => {
             value={cost}
             style={{ marginLeft: "0.5rem", size: 10 }}
             step="10"
-            max="20000"
             onChange={(event) => setCost(event.target.value)}
           />
 
