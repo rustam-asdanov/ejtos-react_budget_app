@@ -1,0 +1,17 @@
+div.currency,
+div.currency > select {
+  background-color: #40c9a2;
+  color: white;
+}
+
+div.currency > select {
+  border: 0px solid transparent;
+}
+
+div.currency > select > option {
+  color: black;
+}
+
+div.currency > select option:focus {
+  color: red;
+}
